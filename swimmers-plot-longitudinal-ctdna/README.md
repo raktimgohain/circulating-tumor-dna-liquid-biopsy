@@ -189,3 +189,43 @@ Example output:
 # Code
 
 The full reproducible analysis pipeline is available in:
+
+swimmers_plot_longitudinal_ctdna.R
+
+
+The script includes detailed comments explaining each step of the workflow, including:
+
+- patient reordering logic
+- event-time extraction
+- biomarker marker placement
+- treatment segment visualization
+- legend construction
+- final figure formatting
+
+---
+
+# Reproducibility
+
+This analysis was implemented in **R** using the following packages:
+
+- `readxl`
+- `dplyr`
+- `ggplot2`
+- `tidyverse`
+- `data.table`
+
+These packages are used for data import, transformation, and visualization.
+
+---
+
+# Data Availability
+
+Due to patient privacy regulations and institutional data governance policies, the underlying dataset cannot be publicly released.
+
+This repository therefore provides the **analysis code and visualization framework**, allowing the computational methodology to be reproduced with appropriate datasets.
+
+---
+
+# License
+
+This project is released under the **MIT License**.
