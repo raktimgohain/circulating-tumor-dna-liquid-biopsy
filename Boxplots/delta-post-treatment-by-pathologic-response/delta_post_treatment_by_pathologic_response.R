@@ -21,7 +21,7 @@ library(readxl)
 # ------------------------------------------------------------
 
 Delta <- read_excel(
-  "~/Desktop/MSK_Projects/ctDNA_Project_Raktim/2025/Excel_files/9b. ctDNA_local_met_worksheet_2025.xlsx",
+  "Data.xlsx",
   sheet = "Delta_Pretx-Posttx"
 )
 
