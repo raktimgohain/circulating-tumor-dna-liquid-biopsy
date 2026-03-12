@@ -141,14 +141,6 @@ Depending on the analysis module, the statistical modeling step may include:
 
 ---
 
-# Example Output
-
-Kaplan–Meier overall survival comparison stratified by ctDNA detection status.
-
-![Kaplan–Meier Overall Survival](survival-analysis/GitHub_OS_ctDNA_conversion.png)
-
----
-
 # Statistical Methods Used
 
 The analyses in this repository use statistical methods commonly applied in translational oncology studies.
